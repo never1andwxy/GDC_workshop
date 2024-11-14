@@ -1,0 +1,62 @@
+[
+  {
+    "firstname": "太郎",
+    "lastname": "山田",
+    "email": "taro.yamada@example.com",
+    "phonenumber": "080-1234-5678"
+  },
+  {
+    "firstname": "花子",
+    "lastname": "鈴木",
+    "email": "hanako.suzuki@example.com",
+    "phonenumber": "090-8765-4321"
+  },
+  {
+    "firstname": "一郎",
+    "lastname": "佐藤",
+    "email": "ichiro.sato@example.com",
+    "phonenumber": "070-1122-3344"
+  },
+  {
+    "firstname": "美咲",
+    "lastname": "高橋",
+    "email": "misaki.takahashi@example.com",
+    "phonenumber": "080-5566-7788"
+  },
+  {
+    "firstname": "健太",
+    "lastname": "伊藤",
+    "email": "kenta.ito@example.com",
+    "phonenumber": "090-2233-4455"
+  },
+  {
+    "firstname": "由美子",
+    "lastname": "中村",
+    "email": "yumiko.nakamura@example.com",
+    "phonenumber": "070-3344-5566"
+  },
+  {
+    "firstname": "直樹",
+    "lastname": "小林",
+    "email": "naoki.kobayashi@example.com",
+    "phonenumber": "080-6677-8899"
+  },
+  {
+    "firstname": "さくら",
+    "lastname": "加藤",
+    "email": "sakura.kato@example.com",
+    "phonenumber": "090-4455-6677"
+  },
+  {
+    "firstname": "大輔",
+    "lastname": "吉田",
+    "email": "daisuke.yoshida@example.com",
+    "phonenumber": "080-7788-9900"
+  },
+  {
+    "firstname": "美智子",
+    "lastname": "山本",
+    "email": "michiko.yamamoto@example.com",
+    "phonenumber": "070-5566-7788"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "books": [
+    {
+      "title": "ねずみくんのチョッキ",
+      "author": "なかえよしを",
+      "image": "https://m.media-amazon.com/images/I/51t5fRypmsL._SY522_.jpg",
+      "price": 1430,
+      "currency": "￥",
+      "category": "絵本 > 動物",
+      "isbn13": 9784033132204,
+      "description": "小さなねずみくんが自慢の赤いチョッキを着て、お友達に見せびらかしますが…"
+    },
+    {
+      "title": "からすのパンやさん",
+      "author": "かこさとし",
+      "image": "https://m.media-amazon.com/images/I/510muIOhjTL._SX342_SY445_.jpg",
+      "price": 1100,
+      "currency": "￥",
+      "category": "絵本 > 生活",
+      "isbn13": 9784494001044,
+      "description": "からすの家族がパンを焼いて、町中に配り、みんなに愛されるパン屋さんになる物語。"
+    },
+    {
+      "title": "おおきなかぶ",
+      "author": "Aleksey Nikolayevich Tolstoy",
+      "image": "https://m.media-amazon.com/images/I/41VUd63LJNL._SX342_SY445_.jpg",
+      "price": 1650,
+      "currency": "￥",
+      "category": "絵本 > 民話",
+      "isbn13": 9784591013997,
+      "description": "大きなかぶを引っ張り出すために、みんなで力を合わせる楽しいお話。"
+    },
+    {
+      "title": "ぐりとぐら",
+      "author": "中川李枝子",
+      "image": "https://m.media-amazon.com/images/I/41I64RY7KjL._SX342_SY445_.jpg",
+      "price": 1100,
+      "currency": "￥",
+      "category": "絵本 > 動物",
+      "isbn13": 9784033401300,
+      "description": "ふたりのねずみ、ぐりとぐらが、森の中で大きな卵を見つけ、カステラを作ります。"
+    },
+    {
+      "title": "火花",
+      "author": "又吉直樹",
+      "image": "https://m.media-amazon.com/images/I/415BjxUpbaL._SY445_SX342_.jpg",
+      "price": 850,
+      "currency": "￥",
+      "category": "小説 > 現代文学",
+      "isbn13": 9784167907829,
+      "description": "お笑い芸人である又吉直樹が描く、友情と夢の葛藤を描いた感動作。人々の心の奥深くに触れる作品。"
+    },
+    {
+      "title": "ノルウェイの森",
+      "author": "村上春樹",
+      "image": "https://m.media-amazon.com/images/I/317UPtfYBdL._SY445_SX342_.jpg",
+      "price": 4498,
+      "currency": "￥",
+      "category": "小説 > 現代文学",
+      "isbn13": 9780375704024,
+      "description": "青春時代の喪失と愛を描いた村上春樹の代表作。若者の心の葛藤と成長が美しい筆致で描かれている。"
+    },
+    {
+      "title": "断捨離",
+      "author": "やましたひでこ",
+      "image": "https://m.media-amazon.com/images/I/81ueJnr6l1L._SY522_.jpg",
+      "price": 1650,
+      "currency": "￥",
+      "category": "生活 > 整理・収納",
+      "isbn13": 9784872903504,
+      "description": "不要なものを捨て、本当に必要なものだけを残す「断捨離」の極意を解説。シンプルで快適な暮らしを提案する。"
+    },
+    {
+      "title": "お金の真理",
+      "author": "与沢翼",
+      "image": "https://m.media-amazon.com/images/I/517SveQrsfL._SY445_SX342_.jpg",
+      "price": 1212,
+      "currency": "￥",
+      "category": "生活 > 経済・お金",
+      "isbn13": 9784478108805,
+      "description": "幸せなお金の使い方と人生の目的を結びつけ、お金との良い関係を築くための考え方を提供する。"
+    },
+    {
+      "title": "一汁一菜でよいという提案",
+      "author": "土井善晴",
+      "image": "https://m.media-amazon.com/images/I/61NNNq70ZHL._SY522_.jpg",
+      "price": 990,
+      "currency": "￥",
+      "category": "料理 > 家庭料理",
+      "isbn13": 9784838728981,
+      "description": "シンプルな「一汁一菜」で心も体も満たされる、日常の料理を提案するレシピ集。忙しい人にもぴったり。"
+    },
+    {
+      "title": "和食の教科書",
+      "author": "川上文代",
+      "image": "https://m.media-amazon.com/images/I/71qq-HhiZsL._SY522_.jpg",
+      "price": 2310,
+      "currency": "￥",
+      "category": "料理 > 和食",
+      "isbn13": 9784766125874,
+      "description": "日本の伝統的な和食を学ぶための基本ガイド。家庭で手軽に作れる和食レシピが満載。"
+    }
+  ]
+}

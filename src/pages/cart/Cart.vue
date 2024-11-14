@@ -34,8 +34,8 @@ export default {
   data() {
     return {
       currency: {
-        name: 'USD',
-        symbol: '$'
+        name: 'JPY',
+        symbol: '￥'
       },
 
       promo: {

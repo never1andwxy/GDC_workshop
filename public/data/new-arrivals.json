@@ -1,50 +1,44 @@
 {
   "books": [
     {
-      "title": "The Memory Police",
-      "author": "Yoko Ogawa",
-      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544335119l/37004370.jpg",
-      "price": 14.72,
-      "currency": "$",
-      "category": "Science Fiction > Dystopian",
-      "isbn13": 9781101911815,
-      "description": "On an unnamed island, objects are disappearing: first hats, then ribbons, birds, roses..."
+      "title": "ねずみくんのチョッキ",
+      "author": "なかえよしを",
+      "image": "https://m.media-amazon.com/images/I/51t5fRypmsL._SY522_.jpg",
+      "price": 1430,
+      "currency": "￥",
+      "category": "絵本 > 動物",
+      "isbn13": 9784033132204,
+      "description": "小さなねずみくんが自慢の赤いチョッキを着て、お友達に見せびらかしますが…"
     },
-
     {
-      "title": "Rhinoceros and Other Plays",
-      "author": "Eugène Ionesco",
-      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347454436l/323823.jpg",
-      "price": 16.00,
-      "currency": "$",
-      "category": "Plays > Theatre",
-      "publisher": "Grove Press",
-      "isbn13": 9780802130983,
-      "description": "A rhinoceros suddenly appears in a small town, tramping through its peaceful streets."
+      "title": "からすのパンやさん",
+      "author": "かこさとし",
+      "image": "https://m.media-amazon.com/images/I/510muIOhjTL._SX342_SY445_.jpg",
+      "price": 1100,
+      "currency": "￥",
+      "category": "絵本 > 生活",
+      "isbn13": 9784494001044,
+      "description": "からすの家族がパンを焼いて、町中に配り、みんなに愛されるパン屋さんになる物語。"
     },
-
     {
-      "title": "Memento Mori",
-      "author": "Muriel Spark",
-      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348186701l/120158.jpg",
-      "price": 15.90,
-      "currency": "$",
-      "category": "Novels",
-      "isbn13": 9780811223041,
-      "publisher": "New Directions Publishing Corporation",
-      "description": "In late 1950s London, something uncanny besets a group of elderly friends."
+      "title": "火花",
+      "author": "又吉直樹",
+      "image": "https://m.media-amazon.com/images/I/415BjxUpbaL._SY445_SX342_.jpg",
+      "price": 850,
+      "currency": "￥",
+      "category": "小説 > 現代文学",
+      "isbn13": 9784167907829,
+      "description": "お笑い芸人である又吉直樹が描く、友情と夢の葛藤を描いた感動作。人々の心の奥深くに触れる作品。"
     },
-
     {
-      "title": "Atlas of AI",
-      "author": "Kate Crawford",
-      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603542518l/50131136._SX318_.jpg",
-      "price": 25.76,
-      "currency": "$",
-      "category": "Nonfiction > Technology",
-      "publisher": "Yale University Press",
-      "isbn13": 9780300209570,
-      "description": "The hidden costs of artificial intelligence--from natural resources and labor to privacy, equality, and freedom"
+      "title": "ノルウェイの森",
+      "author": "村上春樹",
+      "image": "https://m.media-amazon.com/images/I/317UPtfYBdL._SY445_SX342_.jpg",
+      "price": 4498,
+      "currency": "￥",
+      "category": "小説 > 現代文学",
+      "isbn13": 9780375704024,
+      "description": "青春時代の喪失と愛を描いた村上春樹の代表作。若者の心の葛藤と成長が美しい筆致で描かれている。"
     }
   ]
 }
