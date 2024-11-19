@@ -34,7 +34,7 @@
   color: #ccc !important;
 }
 .new-arrival .input-group .price:before {
-  content: '$';
+  content: '¥';
   z-index: 1;
   display: inline-block;
   color: #ccc;
