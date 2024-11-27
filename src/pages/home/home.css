@@ -2,3 +2,16 @@
   max-width: 1200px;
   margin: 10px 50px;
 }
+
+.message-center {
+  align-items: 600px;
+  justify-content: center;
+}
+
+.message {
+  width: 300px;
+  padding: 40px;
+  background-color: black;
+  color: white;
+  float: center;
+}
