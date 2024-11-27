@@ -15,12 +15,18 @@
             <span class="badge bg-primary rounded-pill">{{count}}</span>
           </h4>
           <ul class="list-group mb-3">
-            <li class="list-group-item d-flex justify-content-between lh-sm" v-for="item in contents">
+            <li
+              class="list-group-item d-flex justify-content-between lh-sm"
+              v-for="item in contents"
+            >
               <div>
                 <h6 class="my-0">{{item.title}}</h6>
                 <small class="text-muted">{{item.author}}</small>
               </div>
-              <span class="text-muted"><span v-if="item.quantity > 1">{{item.quantity}}x</span> {{item.currency}}{{item.price}}</span>
+              <span class="text-muted"
+                ><span v-if="item.quantity > 1">{{item.quantity}}x</span>
+                {{item.currency}}{{item.price}}</span
+              >
             </li>
 
             <li class="list-group-item d-flex justify-content-between">
@@ -28,7 +34,6 @@
               <strong>{{currency.symbol}}{{total}}</strong>
             </li>
           </ul>
-
         </div>
         <div class="col-md-7 col-lg-8">
           <h4 class="mb-3">請求先</h4>
@@ -36,35 +41,116 @@
             <div class="row g-3">
               <div class="col-sm-6">
                 <label for="firstName" class="form-label">姓</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
               </div>
 
               <div class="col-sm-6">
                 <label for="lastName" class="form-label">名</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="col-sm-12">
+                <label for="mailAddress" class="form-label"
+                  >メールアドレス</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="mailAddress"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
               </div>
 
-              <div class="col-12">
-                <label for="username" class="form-label">Username</label>
-                <div class="input-group has-validation">
-                  <span class="input-group-text">@</span>
-                  <input type="text" class="form-control" id="username" placeholder="Username" required="">
-                  <div class="invalid-feedback">
-                    Your username is required.
-                  </div>
-                </div>
+              <div class="col-sm-12">
+                <label for="phoneNumber" class="form-label">電話</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="phoneNumber"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="col-sm-6">
+                <label for="zipCode" class="form-label">郵便番号</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="zipCode"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="col-sm-6">
+                <label for="prefectures" class="form-label">都道府県</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="prefectures"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="col-sm-12">
+                <label for="address1" class="form-label"
+                  >住所１（市区町村）</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address1"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="col-sm-12">
+                <label for="address2" class="form-label">住所２（任意）</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address2"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="sameAddress"
+                  class="checkbox"
+                /><label>&nbsp;配送先は請求先と同一住所にする</label>
+              </div>
+              <div>
+                <button class="col-sm-12 primary">注文を確定する</button>
               </div>
             </div>
           </form>
         </div>
       </div>
     </main>
-
   </div>
 
-  <Footer />
-
+  <footer />
 
   <div class="parallax__layer parallax__layer--3">
     <div id="stars" class="top-stars">&nbsp;</div>
@@ -72,11 +158,11 @@
 
   <div class="parallax__layer parallax__layer--2"></div>
 
-  <div class="parallax__layer parallax__layer--2"><div id="clouds" class="top-clouds">&nbsp;</div></div>
+  <div class="parallax__layer parallax__layer--2">
+    <div id="clouds" class="top-clouds">&nbsp;</div>
+  </div>
 
   <div class="parallax__layer parallax__layer--2" style="z-index: 1000"></div>
 
   <div class="parallax__layer parallax__layer--1"></div>
-
-
 </div>

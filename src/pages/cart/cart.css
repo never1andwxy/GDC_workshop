@@ -27,3 +27,13 @@ h4, h4 .text-primary {
 .list-group-item {
   background-color: #eee;
 }
+
+.checkbox {
+  margin-top:2px
+}
+
+.primary{
+  margin-top:30px;
+  background-color:#0d6efd;
+  color:white;
+}
