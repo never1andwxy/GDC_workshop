@@ -38,13 +38,18 @@ export default {
     ]),
 
     getPostcode() {
+      var tempPrefecture
+      var tempAddress
       JapanPostalCode.get(this.zipCode, function (address) {
-        console.log(address)
+        tempPrefecture = address.prefecture
+        tempAddress = address.city + address.area + address.street
       })
-      return {
-        prefecture: "tokyo",
-        address: "kawasakishi~~~~"
-      }
+      console.log(tempPrefecture);
+      console.log(tempAddress);
+      this.prefecture = tempPrefecture
+      this.address1 = tempAddress
+      console.log(this.prefecture);
+      console.log(this.address1);
     }
   },
 
@@ -60,7 +65,9 @@ export default {
         value: 5
       },
 
-      zipCode: ""
+      zipCode: "",
+      address1: "",
+      prefecture: "",
     };
   },
 };

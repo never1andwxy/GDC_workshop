@@ -58,12 +58,12 @@
                   v-model="zipCode" />
               </div>
               <div class="col-sm-6">
-                <label for="prefectures" class="form-label">都道府県</label>
-                <input type="text" class="form-control" id="prefectures" placeholder="" value="" required="" />
+                <label for="prefecture" class="form-label">都道府県</label>
+                <input type="text" class="form-control" id="prefecture" placeholder="" required="" v-model="prefecture"/>
               </div>
               <div class="col-sm-12">
                 <label for="address1" class="form-label">住所１（市区町村）</label>
-                <input type="text" class="form-control" id="address1" placeholder="" value="" required="" />
+                <input type="text" class="form-control" id="address1" placeholder="" v-model="address1" required="" />
               </div>
               <div class="col-sm-12">
                 <label for="address2" class="form-label">住所２（任意）</label>
