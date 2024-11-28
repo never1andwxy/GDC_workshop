@@ -45,6 +45,9 @@ export const useCart = defineStore('cart-store', {
     addToCart(book) {
       this.cart = this.cart.slice(0);
       this.cart.push(book);
+    },
+    clearCart() {
+      this.cart = []
     }
   }
 })

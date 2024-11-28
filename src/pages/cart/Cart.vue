@@ -1,6 +1,6 @@
 <script setup>
 import TopNavbar from '../../components/TopNavbar.vue';
-import {useCart} from '/src/store/cart.js'
+import { useCart } from '/src/store/cart.js'
 const store = useCart()
 </script>
 
@@ -9,6 +9,7 @@ const store = useCart()
 
 <script>
 import { mapState, mapActions } from 'pinia'
+import JapanPostalCode from 'japan-postal-code';
 
 export default {
   components: {
@@ -31,6 +32,22 @@ export default {
     }
   },
 
+  methods: {
+    ...mapActions(useCart, [
+      'clearCart'
+    ]),
+
+    getPostcode() {
+      JapanPostalCode.get(this.zipCode, function (address) {
+        console.log(address)
+      })
+      return {
+        prefecture: "tokyo",
+        address: "kawasakishi~~~~"
+      }
+    }
+  },
+
   data() {
     return {
       currency: {
@@ -41,7 +58,9 @@ export default {
       promo: {
         code: 'EXAMPLECODE',
         value: 5
-      }
+      },
+
+      zipCode: ""
     };
   },
 };

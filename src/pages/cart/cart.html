@@ -15,18 +15,13 @@
             <span class="badge bg-primary rounded-pill">{{count}}</span>
           </h4>
           <ul class="list-group mb-3">
-            <li
-              class="list-group-item d-flex justify-content-between lh-sm"
-              v-for="item in contents"
-            >
+            <li class="list-group-item d-flex justify-content-between lh-sm" v-for="item in contents">
               <div>
                 <h6 class="my-0">{{item.title}}</h6>
                 <small class="text-muted">{{item.author}}</small>
               </div>
-              <span class="text-muted"
-                ><span v-if="item.quantity > 1">{{item.quantity}}x</span>
-                {{item.currency}}{{item.price}}</span
-              >
+              <span class="text-muted"><span v-if="item.quantity > 1">{{item.quantity}}x</span>
+                {{item.currency}}{{item.price}}</span>
             </li>
 
             <li class="list-group-item d-flex justify-content-between">
@@ -41,113 +36,52 @@
             <div class="row g-3">
               <div class="col-sm-6">
                 <label for="firstName" class="form-label">姓</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="firstName"
-                  placeholder=""
-                  value=""
-                  required=""
-                />
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="" />
               </div>
 
               <div class="col-sm-6">
                 <label for="lastName" class="form-label">名</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="lastName"
-                  placeholder=""
-                  value=""
-                  required=""
-                />
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" />
               </div>
               <div class="col-sm-12">
-                <label for="mailAddress" class="form-label"
-                  >メールアドレス</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="mailAddress"
-                  placeholder=""
-                  value=""
-                  required=""
-                />
+                <label for="mailAddress" class="form-label">メールアドレス</label>
+                <input type="text" class="form-control" id="mailAddress" placeholder="" value="" required="" />
               </div>
 
               <div class="col-sm-12">
                 <label for="phoneNumber" class="form-label">電話</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="phoneNumber"
-                  placeholder=""
-                  value=""
-                  required=""
-                />
+                <input type="text" class="form-control" id="phoneNumber" placeholder="" value="" required="" />
               </div>
               <div class="col-sm-6">
                 <label for="zipCode" class="form-label">郵便番号</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="zipCode"
-                  placeholder=""
-                  value=""
-                  required=""
-                />
+                <input @blur="getPostcode" type="text" class="form-control" id="zipCode" placeholder="" required=""
+                  v-model="zipCode" />
               </div>
               <div class="col-sm-6">
                 <label for="prefectures" class="form-label">都道府県</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="prefectures"
-                  placeholder=""
-                  value=""
-                  required=""
-                />
+                <input type="text" class="form-control" id="prefectures" placeholder="" value="" required="" />
               </div>
               <div class="col-sm-12">
-                <label for="address1" class="form-label"
-                  >住所１（市区町村）</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="address1"
-                  placeholder=""
-                  value=""
-                  required=""
-                />
+                <label for="address1" class="form-label">住所１（市区町村）</label>
+                <input type="text" class="form-control" id="address1" placeholder="" value="" required="" />
               </div>
               <div class="col-sm-12">
                 <label for="address2" class="form-label">住所２（任意）</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="address2"
-                  placeholder=""
-                  value=""
-                  required=""
-                />
+                <input type="text" class="form-control" id="address2" placeholder="" value="" required="" />
               </div>
               <div>
-                <input
-                  type="checkbox"
-                  id="sameAddress"
-                  class="checkbox"
-                /><label>&nbsp;配送先は請求先と同一住所にする</label>
+                <input type="checkbox" id="sameAddress" class="checkbox" /><label>&nbsp;配送先は請求先と同一住所にする</label>
               </div>
               <div>
-                  <router-link to="/?showMessage=true"  class="d-block text-decoration-none" id="dropdownUser2" aria-expanded="false" style="margin-top:4px">
-                    <button class="primary col-sm-12">注文を確定する</button></router-link>
+                <router-link to="/?showMessage=true" class="d-block text-decoration-none" id="dropdownUser2"
+                  aria-expanded="false" style="margin-top:4px">
+                  <button @click="clearCart()" class="primary col-sm-12">注文を確定する</button></router-link>
               </div>
             </div>
           </form>
         </div>
       </div>
+      <button @click="getPostcode('2140012')">post code button</button>
     </main>
   </div>
 
