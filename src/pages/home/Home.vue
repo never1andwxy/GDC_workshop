@@ -8,12 +8,21 @@ import NewArrivals from '../../components/new-arrivals/NewArrivals.vue';
 
 <script>
 export default {
+  mounted() {
+    this.showMessage = this.$route.query.showMessage
+  },
+  methods: {
+    messageClose() {
+      this.showMessage = false
+    }
+  },
   components: {
     TopNavbar,
   },
 
   data() {
     return {
+      showMessage: false
     };
   }
 };
